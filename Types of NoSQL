@@ -1,0 +1,10 @@
+NoSQL means Not Only SQL, which uses other languages as well along with SQL.
+
+Types of NoSQL :
+1. Key Value [X] -Famous implementation of Key-value is redis.
+2. Document Database [X] -mongoDB
+3. Tabular [X] -Cassandra
+4. Graph - Coming Soon! -neo4j
+
+Why NoSQL is needed?
+NoSQL databases store data in a single data format, including a JSON document, rather than the traditional table structure of a relational database. Because this non-relational database architecture doesn't really need a structure, it can quickly handle massive, often unorganized data sets.
