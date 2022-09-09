@@ -17,3 +17,17 @@ Cassandra has no Foreign Key constraint, i.e., we cannot link two tables togethe
 Cassandra has no Joins.
 In Cassandra, there occurs no error when we trying to update an id which is not already present. Infact, it will create a new row with the given values and a unique id and the not provided values will be set to null by default.
 Also, when we try to insert a row with the same id which is already been used(if the id is the primary key), SQL will throw an error, but in CQL, no error will be thrown and it will either work not as an insert query but an upsert query. It will update the row that already contains the same id.
+
+In Cassandra, in place of varchar or char, text datatype is used in the case of strings.
+
+Integer can have following types :-
+int - 32 bits
+bigint - 64 bits
+smallint - 16 bits
+tinyint - 8 bits
+
+Floating type numbers can have following types :-
+float - 32 bits
+double - 64 bits
+
+Timestamp can be used to store both date and time. But in case, you only want to enter date, use date and if you want to enter time, use time. 
