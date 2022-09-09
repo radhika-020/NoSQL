@@ -8,3 +8,10 @@ Types of NoSQL :
 
 Why NoSQL is needed?
 NoSQL databases store data in a single data format, including a JSON document, rather than the traditional table structure of a relational database. Because this non-relational database architecture doesn't really need a structure, it can quickly handle massive, often unorganized data sets.
+
+Difference between Cassandra and RDBMS :-
+
+Since, both the databases uses table like format to store data, but the key differences in both of them is :-
+
+Cassandra has no Foreign Key constraint, i.e., we cannot link two tables together.
+Cassandra has no Joins.
