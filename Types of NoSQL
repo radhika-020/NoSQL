@@ -39,4 +39,6 @@ uuid() generates a unique id for each row.
 Various other datatypes like list, set, map(dictionary[key-value pairs]) can also be used in the CQL. Along with thie, there must be provided a datatype in which the value need to be stored. For say, list<text>, this will contain a list of type text(character).
 
 When there are more than one column making up a primary key, that key is also known as the composite key or compound key along with the primary key. The very first column of the composite key is known as the partition key and the others are known as the clustering keys.
-Clustering keys are used to store the data in order or in the sorted order. Whereas the partition key is used for the partition purposes, o.e., partitioning in segments so that a single server need not to store the full values. 
+Clustering keys are used to store the data in order or in the sorted order. Whereas the partition key is used for the partition purposes, o.e., partitioning in segments so that a single server need not to store the full values.
+
+REST API is used to store the JSON data in the Cassandra database.
