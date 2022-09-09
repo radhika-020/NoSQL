@@ -6,6 +6,8 @@ Types of NoSQL :
 3. Tabular [X] -Cassandra, Open Source and distributed database in which anyone can contribute and was built by Facebook and is mainly used by the same.
 4. Graph - Coming Soon! -neo4j
 
+In the following NoSQL Guide, the implementation is done on a open source cloud service DataStax Astra which is implemented on Open Source Apache Cassandra.
+
 Why NoSQL is needed?
 NoSQL databases store data in a single data format, including a JSON document, rather than the traditional table structure of a relational database. Because this non-relational database architecture doesn't really need a structure, it can quickly handle massive, often unorganized data sets.
 
