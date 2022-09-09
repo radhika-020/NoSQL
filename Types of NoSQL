@@ -3,7 +3,7 @@ NoSQL means Not Only SQL, which uses other languages as well along with SQL.
 Types of NoSQL :
 1. Key Value [X] -Famous implementation of Key-value is redis.
 2. Document Database [X] -mongoDB
-3. Tabular [X] -Cassandra, Open Source database in which anyone can contribute and was built by Facebook and is mainly used by the same.
+3. Tabular [X] -Cassandra, Open Source and distributed database in which anyone can contribute and was built by Facebook and is mainly used by the same.
 4. Graph - Coming Soon! -neo4j
 
 Why NoSQL is needed?
@@ -35,3 +35,6 @@ Timestamp can be used to store both date and time. But in case, you only want to
 toTimeStamp(now()) is used to get the current date and time.
 uuid() generates a unique id for each row.
 Various other datatypes like list, set, map(dictionary[key-value pairs]) can also be used in the CQL. Along with thie, there must be provided a datatype in which the value need to be stored. For say, list<text>, this will contain a list of type text(character).
+
+When there are more than one column making up a primary key, that key is also known as the composite key or compound key along with the primary key. The very first column of the composite key is known as the partition key and the others are known as the clustering keys.
+Clustering keys are used to store the data in order or in the sorted order. Whereas the partition key is used for the partition purposes, o.e., partitioning in segments so that a single server need not to store the full values. 
